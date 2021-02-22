@@ -1,10 +1,19 @@
+/*
+ * Diego Ruiz
+ * Javier Alvarez
+ * 
+*/
+
+import java.util.ArrayList;
+import java.lang.*;
 
 public class GnomeSort {
+	ArrayList<Integer> numeros = new ArrayList<Integer>();
+	
 	public GnomeSort() {
-		System.out.println("Gnome Sort:");
 	}
 	
-	static int[] gnomeSort(int arr[], int n){ 
+	public void gnomeSort(int arr[], int n){
         int i = 0; 
   
         while (i < n) { 
@@ -20,7 +29,6 @@ public class GnomeSort {
                 i--; 
             } 
         } 
-        return arr; 
     } 
 
 }
